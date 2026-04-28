@@ -24,3 +24,5 @@ pytest-asyncio
 
 # --- Production ---
 gunicorn
+
+python-jose[cryptography]
