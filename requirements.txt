@@ -1,0 +1,26 @@
+# --- Core backend ---
+fastapi
+uvicorn
+websockets
+
+# --- Config & utils ---
+python-dotenv
+loguru
+
+# --- Sécurité ---
+cryptography
+pyjwt
+passlib[bcrypt]
+
+# --- Base de données ---
+sqlalchemy
+alembic
+databases[postgresql]
+
+# --- Tests ---
+pytest
+httpx
+pytest-asyncio
+
+# --- Production ---
+gunicorn
